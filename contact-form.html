@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact us Form</title>
+    <link rel="stylesheet" href="form-style.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,400;0,800;1,400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="formbox">
+      <form action="/">
+        <h1 class="question">
+          Contact street photography Form -How Can We Help?
+        </h1>
+        <p class="question">
+          Your full name and contact
+        </p>
+        <div class="info">
+          <input
+            class="fname"
+            type="text"
+            name="name"
+            placeholder="Full name(required)"
+          />
+
+          <input type="number" name="Phone" placeholder="Phone number" />
+          <input type="email" name="email" placeholder="Email(required)" />
+        </div>
+        <p class="question">
+          Is this the first time you have visited our website?
+        </p>
+        <div class="question-answer">
+          <label><input type="radio" value="none" name="visited" /> yes</label>
+          <label><input type="radio" value="none" name="visited" /> no</label>
+        </div>
+        <p class="question">What is the PRIMARY reason you came to the site?</p>
+        <textarea rows="5"></textarea>
+        <p class="question">Did you find what you needed?</p>
+        <div class="question-answer">
+          <label
+            ><input type="radio" value="none" name="needed" /> Yes, all of
+            it</label
+          >
+          <label
+            ><input type="radio" value="none" name="needed" /> Yes, some of
+            it</label
+          >
+          <label
+            ><input type="radio" value="none" name="needed" /> No, none of
+            it</label
+          >
+        </div>
+        <p class="question">
+          If you did not find any or all of what you needed, please tell us what
+          you think of our photographs?
+        </p>
+        <textarea rows="5"></textarea>
+        <p class="question">
+          Please tell us how easy it is to find our website.
+        </p>
+        <div class="question-answer">
+          <label
+            ><input type="radio" value="none" name="easy" /> Very Easy</label
+          >
+          <label><input type="radio" value="none" name="easy" /> Easy</label>
+          <label><input type="radio" value="none" name="easy" /> Average</label>
+          <label
+            ><input type="radio" value="none" name="easy" /> Difficult</label
+          >
+        </div>
+
+        <p class="question">
+          Please add any comments you have for improving the website. We welcome
+          suggestions on specific areas for improvements, features you would
+          like to see added to the site, and examples of what you consider good
+          for this websites.
+        </p>
+        <textarea rows="5"></textarea>
+        <div class="question-answer">
+          Send me a copy of my response
+          <label
+            ><input
+              type="checkbox"
+              value="none"
+              name="EMAIL_RECEIPT_CHECKBOX"
+            />
+          </label>
+        </div>
+
+        <div class="btn-block">
+          <button type="submit">Send</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
